@@ -24,10 +24,10 @@ class Time {
         this.hours = hours;
         this.minutes = minutes;
         this.seconds = seconds;
-        this.AMorPM= AMorPM;
+        this.AMorPM = AMorPM;
     }
 
     void display() {
-        System.out.println("Time = " + this.hours+":"+this.minutes+":"+ this.seconds+":"+this.AMorPM);
+        System.out.println("Time = " + this.hours + ":" + this.minutes + ":" + this.seconds + ":" + this.AMorPM);
     }
 }
