@@ -5,4 +5,4 @@ If there is an additional parameter for “am” or “pm”, use a constructor 
 
 Include a method to display the time with colons separating the units. If the time is 1 hour, 22 minutes, and 35 seconds, print it as 1:22:35. 
 
-Run the project to match the sample session and take a screenshot. Change all of the input in the driver class, run it again, and take a screenshot.
+Run the project and take a screenshot. Change all of the input in the driver class, run it again, and take a screenshot.
