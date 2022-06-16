@@ -1,18 +1,33 @@
 package timedriver;
 
-public class TimeDriver {
+class Time {
 
-    public static void main(String[] args) {
-        System.out.println("Ch 7 Time by Kevin Bell\n");
-        Time onlyHour = new Time(5);
-        Time HourMin = new Time(7, 30);
-        Time HourMinSec = new Time(15, 16, 17);
-        Time AM = new Time(3, 45, 20, "am");
-        Time PM = new Time(6, 12, 45, "pm");
-        onlyHour.display();
-        HourMin.display();
-        HourMinSec.display();
-        AM.display();
-        PM.display();
+    private int hours, minutes, seconds;
+    private String AMorPM;
+
+    Time(int hours) {
+        this.hours = hours;
+    }
+
+    Time(int hours, int minutes) {
+        this.hours = hours;
+        this.minutes = minutes;
+    }
+
+    Time(int hours, int minutes, int seconds) {
+        this.hours = hours;
+        this.minutes = minutes;
+        this.seconds = seconds;
+    }
+
+    Time(int hours, int minutes, int seconds, String AMorPM) {
+        this.hours = hours;
+        this.minutes = minutes;
+        this.seconds = seconds;
+        this.AMorPM= AMorPM;
+    }
+
+    void display() {
+        System.out.println("Time = " + this.hours+":"+this.minutes+":"+ this.seconds+":"+this.AMorPM);
     }
 }
