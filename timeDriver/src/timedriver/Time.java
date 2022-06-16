@@ -2,19 +2,19 @@ package timedriver;
 
 class Time {
 
-    Time(int i) {
+    Time(int hours) {
 
     }
 
-    Time(int i, int i0) {
+    Time(int hours, int minutes) {
 
     }
 
-    Time(int i, int i0, int i1) {
+    Time(int hours, int minutes, int seconds) {
 
     }
 
-    Time(int i, int i0, int i1, String am) {
+    Time(int hours, int minutes, int seconds, String am) {
 
     }
 
