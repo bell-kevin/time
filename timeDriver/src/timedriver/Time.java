@@ -3,7 +3,6 @@ package timedriver;
 class Time {
 
     private int hours, minutes, seconds;
-    private String AMorPM;
 
     Time(int hours) {
         this.hours = hours;
