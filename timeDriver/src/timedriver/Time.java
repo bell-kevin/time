@@ -19,6 +19,6 @@ class Time {
     }
 
     void display() {
-
+        System.out.println("Time = "+0);
     }
 }
